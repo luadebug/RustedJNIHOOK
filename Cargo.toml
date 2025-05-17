@@ -5,5 +5,5 @@ edition = "2021"
 [lib]
 name = "jnihook_sys"
 crate-type = ["cdylib"]
-[dependencies]
-jni = "0.21.1"
+[build-dependencies]
+bindgen = "0.71.1"
